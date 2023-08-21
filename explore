@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/youtube"
+        android:id="@+id/i3"
+        android:layout_margin="10dp">
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YouTube"
+        android:textSize="25dp"
+        android:id="@+id/i2"
+        android:layout_gravity="center"
+        android:textStyle="bold">
+    </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/chromecast"
+        android:layout_margin="10dp">
+    </ImageView>
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/notification"
+        android:layout_margin="10dp">
+    </ImageView>
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/search"
+        android:layout_margin="10dp">
+    </ImageView>
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/account"
+        android:layout_margin="10dp">
+    </ImageView>
+</LinearLayout>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/compass"
+                android:layout_margin="10dp">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All"
+                android:textSize="18dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/et1"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Music"
+                android:textSize="18dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/et1"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c"
+                android:textSize="18dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/et1"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Program"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+                android:background="@drawable/et1"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dance"
+                android:textSize="18dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/et1"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Streaks"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+                android:background="@drawable/et1"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Animal"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+                android:background="@drawable/et1"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Books"
+                android:layout_margin="10dp"
+                android:background="@drawable/et1"
+                android:textSize="18dp"></TextView>
+        </LinearLayout>
+    </HorizontalScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/s1"
+        android:layout_margin="5dp">
+    </ImageView>
+  <ImageView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:src="@drawable/s2"
+android:layout_margin="5dp">
+    </ImageView><ImageView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:src="@drawable/s3"
+android:layout_margin="5dp">
+    </ImageView><ImageView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:src="@drawable/s4"
+android:layout_margin="5dp">
+    </ImageView><ImageView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:src="@drawable/s5"
+android:layout_margin="5dp">
+    </ImageView><ImageView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:src="@drawable/s6"
+android:layout_margin="5dp">
+    </ImageView>
+    <ImageView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:src="@drawable/s7"
+android:layout_margin="5dp">
+    </ImageView> <ImageView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:src="@drawable/s8"
+android:layout_margin="5dp">
+    </ImageView> <ImageView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:src="@drawable/s9"
+android:layout_margin="5dp">
+    </ImageView> <ImageView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:src="@drawable/s10"
+android:layout_margin="5dp">
+    </ImageView>
+        </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
